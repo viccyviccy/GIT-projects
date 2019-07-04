@@ -400,20 +400,19 @@ img {
   justify-content: space-between;
   align-items: center;
   height: 110px;
-  margin: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
 }
 
 .header-section {
-  background: url("images/header-background.png");
+  background: url("../images/header-background.png");
   background-size: cover;
   background-position: center;
 }
 
 .logo-img {
   display: block;
-  height: 100px;
-  width: 160px;
-  background-color: black;
+  height: 90px;
+  width: 150px;
 }
 
 .header-nav {
