@@ -389,7 +389,7 @@ img {
 
 .container {
   display: block;
-  width: 1250px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 auto;
 }
@@ -432,4 +432,59 @@ img {
   height: 20px;
   width: 20px;
   fill: black;
+}
+
+.footer-section {
+  padding-top: 52px;
+  padding-bottom: 50px;
+  background-color: #191919;
+}
+
+.footer-content {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.descr {
+  color: #fefefe;
+  max-width: 320px;
+  text-align: center;
+}
+
+h2 {
+  margin: 0 auto;
+  font-size: 21px;
+}
+
+h2::after {
+  display: block;
+  content: url("../images/footer-divider.png");
+  margin: 10px;
+}
+
+p {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.icons-items {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.icon {
+  width: 22px;
+  height: 14px;
+  fill: #ffffff;
+}
+
+.link:hover {
+  fill: #cc9900;
+  transition: all .5s linear;
+}
+
+.link1 {
+  text-decoration: none;
 }
