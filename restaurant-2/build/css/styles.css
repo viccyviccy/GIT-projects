@@ -766,6 +766,65 @@ img {
   padding: 0 80px 0 80px;
 }
 
+<<<<<<< HEAD
+=======
+.fine-ingredients-section {
+  background: url("../images/background-fine-ingredients.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.f-i-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 100px 0 100px 0;
+}
+
+.fine-ingredients {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+  height: 555px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.txt-fine-ing {
+  text-align: center;
+  width: 430px;
+}
+
+.fine-ingredients-img {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 50px 0 50px 0;
+}
+
+.f-i-img {
+  width: 102px;
+  height: 102px;
+  margin: 0 20px 0 20px;
+}
+
+.fine-ingredients-title {
+  font-size: 36px;
+  color: #fff;
+}
+
+.fine-ingredients-title::after {
+  content: url("/images/reviews-divider.png");
+  display: block;
+  margin: 20px 0 20px 0;
+}
+
+.fine-ingredients-txt {
+  font-size: 16px;
+}
+
+>>>>>>> viccy
 .footer-section {
   padding-top: 52px;
   padding-bottom: 50px;
@@ -798,7 +857,10 @@ img {
 .footer-txt-p {
   margin: 0 0 10px 0;
   font-size: 16px;
+<<<<<<< HEAD
   font-family: 'OpenSans Bold';
+=======
+>>>>>>> viccy
 }
 
 .icons-items {
