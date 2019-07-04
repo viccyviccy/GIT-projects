@@ -1,0 +1,51 @@
+.right-food-section{
+    background: url("../images/background-right-food.png");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0 50px 0;
+}
+
+.rigth-food-txt-section{
+    display: flex;
+    flex-flow: column wrap;
+    align-self: flex-start;
+    text-align: center;
+    width: 430px;
+    padding-top: 40px;
+}
+
+.rigth-food-title{
+    color: #cc9900;
+    font-size: 36px;
+    &::first-letter {
+        text-transform: uppercase;
+    }
+    &::after{
+        content: url('../images/the-rf-divider.png');
+        padding-bottom: 50px;
+    }
+}
+.right-food-txt{
+    font-size: 16px;
+}
+.right-food-chef{
+    width: 220px;
+    height: 220px;
+    padding: 58px 0 58px 0;
+    margin-right: 60px;
+    align-self: flex-end;
+    
+}
+
+.right-food-image{
+    height: 560px;
+    width: 560px;
+}
+
+.right-food-items{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 80px 0 80px;
+}
