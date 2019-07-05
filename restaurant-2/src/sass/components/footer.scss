@@ -7,7 +7,7 @@
 .footer-content {
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .descr {
@@ -20,6 +20,7 @@
     
     margin: 0 auto;
     font-size: 21px;
+    font-family: 'Yeseva One';
 
     &::after {
         display: block;
@@ -31,7 +32,7 @@
 .footer-txt-p {
     margin: 0 0 10px 0;
     font-size: 16px;
-    font-family: 'OpenSans Bold';
+    font-family: 'Open Sans';
     
 }
 

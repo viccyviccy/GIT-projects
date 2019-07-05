@@ -400,96 +400,14 @@ img {
   font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/gentium-book-basic-v9-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Gentium Book Basic"), local("GentiumBookBasic"), url("../fonts/gentium-book-basic-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/gentium-book-basic-v9-latin-regular.woff2") format("woff2"), url("../fonts/gentium-book-basic-v9-latin-regular.woff") format("woff"), url("../fonts/gentium-book-basic-v9-latin-regular.ttf") format("truetype"), url("../fonts/gentium-book-basic-v9-latin-regular.svg#GentiumBookBasic") format("svg");
-  /* Legacy iOS */
+  src: url("/fonts/gentium-book/gentium-book-basic-v9-latin-regular.ttf");
 }
-
-/* gentium-book-basic-italic - latin */
-
-@font-face {
-  font-family: 'Gentium Book Basic';
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/gentium-book-basic-v9-latin-italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Gentium Book Basic Italic"), local("GentiumBookBasic-Italic"), url("../fonts/gentium-book-basic-v9-latin-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/gentium-book-basic-v9-latin-italic.woff2") format("woff2"), url("../fonts/gentium-book-basic-v9-latin-italic.woff") format("woff"), url("../fonts/gentium-book-basic-v9-latin-italic.ttf") format("truetype"), url("../fonts/gentium-book-basic-v9-latin-italic.svg#GentiumBookBasic") format("svg");
-  /* Legacy iOS */
-}
-
-/* gentium-book-basic-700 - latin */
 
 @font-face {
   font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/gentium-book-basic-v9-latin-700.eot");
-  /* IE9 Compat Modes */
-  src: local("Gentium Book Basic Bold"), local("GentiumBookBasic-Bold"), url("../fonts/gentium-book-basic-v9-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/gentium-book-basic-v9-latin-700.woff2") format("woff2"), url("../fonts/gentium-book-basic-v9-latin-700.woff") format("woff"), url("../fonts/gentium-book-basic-v9-latin-700.ttf") format("truetype"), url("../fonts/gentium-book-basic-v9-latin-700.svg#GentiumBookBasic") format("svg");
-  /* Legacy iOS */
-}
-
-/* gentium-book-basic-700italic - latin */
-
-@font-face {
-  font-family: 'Gentium Book Basic';
-  font-style: italic;
-  font-weight: 700;
-  src: url("../fonts/gentium-book-basic-v9-latin-700italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Gentium Book Basic Bold Italic"), local("GentiumBookBasic-BoldItalic"), url("../fonts/gentium-book-basic-v9-latin-700italic.eot?#iefix") format("embedded-opentype"), url("../fonts/gentium-book-basic-v9-latin-700italic.woff2") format("woff2"), url("../fonts/gentium-book-basic-v9-latin-700italic.woff") format("woff"), url("../fonts/gentium-book-basic-v9-latin-700italic.ttf") format("truetype"), url("../fonts/gentium-book-basic-v9-latin-700italic.svg#GentiumBookBasic") format("svg");
-  /* Legacy iOS */
-}
-
-/* yeseva-one-regular - latin */
-
-@font-face {
-  font-family: 'Yeseva One';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Yeseva One Regular"), local("YesevaOne-Regular"), url("../fonts/yeseva-one-v13-latin-regular.woff2") format("woff2"), url("../fonts/yeseva-one-v13-latin-regular.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* lato-100 - latin */
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 100;
-  src: local("Lato Hairline"), local("Lato-Hairline"), url("../fonts/lato-v15-latin-100.woff2") format("woff2"), url("../fonts/lato-v15-latin-100.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* lato-100italic - latin */
-
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 100;
-  src: local("Lato Hairline Italic"), local("Lato-HairlineItalic"), url("../fonts/lato-v15-latin-100italic.woff2") format("woff2"), url("../fonts/lato-v15-latin-100italic.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* lato-300 - latin */
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Lato Light"), local("Lato-Light"), url("../fonts/lato-v15-latin-300.woff2") format("woff2"), url("../fonts/lato-v15-latin-300.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* lato-300italic - latin */
-
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 300;
-  src: local("Lato Light Italic"), local("Lato-LightItalic"), url("../fonts/lato-v15-latin-300italic.woff2") format("woff2"), url("../fonts/lato-v15-latin-300italic.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("/fonts/gentium-book/gentium-book-basic-v9-latin-700.ttf");
 }
 
 /* lato-regular - latin */
@@ -498,8 +416,7 @@ img {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local("Lato Regular"), local("Lato-Regular"), url("../fonts/lato-v15-latin-regular.woff2") format("woff2"), url("../fonts/lato-v15-latin-regular.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("/fonts/lato/lato-v15-latin-regular.ttf");
 }
 
 /* lato-italic - latin */
@@ -508,48 +425,7 @@ img {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 400;
-  src: local("Lato Italic"), local("Lato-Italic"), url("../fonts/lato-v15-latin-italic.woff2") format("woff2"), url("../fonts/lato-v15-latin-italic.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* lato-700 - latin */
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Lato Bold"), local("Lato-Bold"), url("../fonts/lato-v15-latin-700.woff2") format("woff2"), url("../fonts/lato-v15-latin-700.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* lato-700italic - latin */
-
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url("../fonts/lato-v15-latin-700italic.woff2") format("woff2"), url("../fonts/lato-v15-latin-700italic.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* lato-900italic - latin */
-
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 900;
-  src: local("Lato Black Italic"), local("Lato-BlackItalic"), url("../fonts/lato-v15-latin-900italic.woff2") format("woff2"), url("../fonts/lato-v15-latin-900italic.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* lato-900 - latin */
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 900;
-  src: local("Lato Black"), local("Lato-Black"), url("../fonts/lato-v15-latin-900.woff2") format("woff2"), url("../fonts/lato-v15-latin-900.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("/fonts/lato/lato-v15-latin-italic.ttf");
 }
 
 /* open-sans-regular - latin */
@@ -558,34 +434,24 @@ img {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local("Open Sans Regular"), local("OpenSans-Regular"), url("../fonts/open-sans-v16-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v16-latin-regular.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("/fonts/open-sans/open-sans-v16-latin-regular.ttf");
 }
 
-/* open-sans-600italic - latin */
+/* open-sans-italic - latin */
 
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
-  font-weight: 600;
-  src: local("Open Sans SemiBold Italic"), local("OpenSans-SemiBoldItalic"), url("../fonts/open-sans-v16-latin-600italic.woff2") format("woff2"), url("../fonts/open-sans-v16-latin-600italic.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* open-sans-600 - latin */
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url("../fonts/open-sans-v16-latin-600.woff2") format("woff2"), url("../fonts/open-sans-v16-latin-600.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-weight: 400;
+  src: url("/fonts/open-sans/open-sans-v16-latin-italic.ttf");
 }
 
 /* open-sans-700 - latin */
 
 @font-face {
-  font-family: 'OpenSans Bold';
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
   src: url("/fonts/open-sans/open-sans-v16-latin-700.ttf");
 }
 
@@ -595,28 +461,34 @@ img {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 700;
-  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url("../fonts/open-sans-v16-latin-700italic.woff2") format("woff2"), url("../fonts/open-sans-v16-latin-700italic.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("/fonts/open-sans/open-sans-v16-latin-700italic.ttf");
 }
 
-/* open-sans-800 - latin */
+/* roboto-regular - latin */
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 800;
-  src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url("../fonts/open-sans-v16-latin-800.woff2") format("woff2"), url("../fonts/open-sans-v16-latin-800.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-weight: 400;
+  src: url("/fonts/roboto/roboto-v19-latin-regular.ttf");
 }
 
-/* open-sans-800italic - latin */
+/* roboto-700 - latin */
 
 @font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 800;
-  src: local("Open Sans ExtraBold Italic"), local("OpenSans-ExtraBoldItalic"), url("../fonts/open-sans-v16-latin-800italic.woff2") format("woff2"), url("../fonts/open-sans-v16-latin-800italic.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/roboto/roboto-v19-latin-700.ttf");
+}
+
+/* yeseva-one-regular - latin */
+
+@font-face {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/yeseva-one/yeseva-one-v13-latin-regular.ttf");
 }
 
 .header-logo-nav {
@@ -766,6 +638,216 @@ img {
   padding: 0 80px 0 80px;
 }
 
+.guest-reviews-section {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background: url("/images/background-reviews.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.guest-rew-words {
+  text-align: center;
+  padding: 80px 60px 105px 60px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 770px;
+}
+
+.guest-rew_title {
+  font-family: 'Yeseva One';
+  font-size: 36px;
+}
+
+.guest-rew_title::after {
+  display: block;
+  content: url("../images/footer-divider.png");
+  margin: 10px;
+}
+
+.guest-rew_p {
+  font-family: 'Gentium Book';
+  font-weight: 400;
+  font-size: 25px;
+  max-width: 620px;
+  line-height: 40px;
+  margin: 0 0 30px 0;
+  padding: 10px 20px 0 32px;
+  position: relative;
+}
+
+.guest-rew_p::before {
+  display: block;
+  content: url("/images/dush.png");
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.guest-rew-author {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.just-tr-food-section {
+  background: url("../images/background-right-food.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.just-tr-food {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.just-tr-food_photos {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.just-tr-food_photo {
+  width: 270px;
+  height: 507px;
+  margin: 0 15px 0 15px;
+}
+
+.just-tr-food_photo:last-of-type {
+  margin-right: 0;
+}
+
+.just-tr-food_txt {
+  text-align: center;
+  max-width: 430px;
+}
+
+.just-tr-food_txt_title {
+  font-family: 'Yeseva One';
+  color: #cc9900;
+  font-size: 32px;
+}
+
+.just-tr-food_txt_title::after {
+  display: block;
+  content: url("../images/the-rf-divider.png");
+  margin: 10px;
+}
+
+.just-tr-food_txt_p {
+  font-family: 'Lato';
+  font-size: 16px;
+  color: #9e9f9f;
+  margin-bottom: 10px;
+}
+
+.just-tr-food_txt_p:last-of-type {
+  margin-bottom: 0;
+}
+
+.inputs_item {
+  padding-top: 74px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.form-txt {
+  height: 35px;
+  width: 200px;
+  margin-bottom: 30px;
+  border: 1px solid #c8c6c6;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.form-txt::-webkit-input-placeholder {
+  color: #c8c6c6;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.form-txt:-ms-input-placeholder {
+  color: #c8c6c6;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.form-txt::-ms-input-placeholder {
+  color: #c8c6c6;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.form-txt::placeholder {
+  color: #c8c6c6;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.label-for-data {
+  position: relative;
+}
+
+.label-for-data::before {
+  display: block;
+  content: url("../images/icon.png");
+  position: absolute;
+  right: .8rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 1rem;
+  height: 1rem;
+}
+
+.form_txt_p {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: #cc9900;
+  text-align: start;
+  margin-bottom: 7px;
+}
+
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 35px;
+  width: 200px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #c8c6c6;
+  background: url("../../images/arrow.png") no-repeat right;
+  background-position-x: 180px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: #c8c6c6;
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.form-button {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: #fff;
+  padding: 12px 60px 12px 55px;
+  background-color: #cc9900;
+}
+
 .footer-section {
   padding-top: 52px;
   padding-bottom: 50px;
@@ -775,7 +857,7 @@ img {
 .footer-content {
   display: flex;
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .descr {
@@ -787,6 +869,7 @@ img {
 .footer-txt {
   margin: 0 auto;
   font-size: 21px;
+  font-family: 'Yeseva One';
 }
 
 .footer-txt::after {
@@ -798,7 +881,7 @@ img {
 .footer-txt-p {
   margin: 0 0 10px 0;
   font-size: 16px;
-  font-family: 'OpenSans Bold';
+  font-family: 'Open Sans';
 }
 
 .icons-items {
