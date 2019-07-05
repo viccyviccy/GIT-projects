@@ -17,6 +17,9 @@
 .rigth-food-title{
     color: #cc9900;
     font-size: 36px;
+    font-family: 'Yeseva One';
+     font-style: normal;
+     font-weight: 400;
     &::first-letter {
         text-transform: uppercase;
     }
@@ -27,6 +30,9 @@
 }
 .right-food-txt{
     font-size: 16px;
+    font-family: 'Lato';
+     font-style: normal;
+     font-weight: 400;
 }
 .right-food-chef{
     width: 220px;

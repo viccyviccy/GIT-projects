@@ -30,13 +30,39 @@
 
 .nav__links{
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #fff;
+    font-family: 'Gentium Book Basic';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 21px;
+     position: relative;
     &:hover{
         color: #dab33e;
         transition: all .5s linear;
+        text-shadow: -1px 0 rgba(0, 0, 0, 0.5), 0 1px rgba(0, 0, 0, 0.5), 1px 0 rgba(0, 0, 0, 0.5), 0 -1px rgba(0, 0, 0, 0.5);
     }
 }
+// .nav__links::after {
+//     content: '';
+//     display: block;
+//     opacity: 0;
+//     visibility: hidden;
+//     height: 3px;
+//     width: 100%;
+//     background-color:#dab33e7e;
+//     position: absolute;
+//     bottom: -16px;
+//     left: 0;
+//     transition: all .5s linear;
+//   }
+
+//   .nav__links:nth-of-type(-n + 6):hover::after {
+//     opacity: 1;
+//     visibility: visible;
+//     bottom: -8px;
+//   }
+
 
 .header-svg{
     display: block;
@@ -63,6 +89,9 @@
     font-size: 90px;
     color: #fff;
     width: 970px;
+    font-family: 'Yeseva One';
+     font-style: normal;
+     font-weight: 400;
     &::after{
         content: url('../images/header-divider.png');
         display: block;
@@ -81,6 +110,10 @@
     text-transform: uppercase;
     border: 1px solid #fff;
     background-color: rgba(255, 255, 255, 0.247);
+    font-size: 18px;
+    font-family: 'Lato';
+     font-style: normal;
+     font-weight: 400;
     &:hover{
         border: 1px solid #000;
         background-color: rgba(0, 0, 0, 0.247);

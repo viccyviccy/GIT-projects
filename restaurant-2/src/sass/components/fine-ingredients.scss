@@ -16,7 +16,7 @@
     align-items: center;
     width: 570px;
     height: 555px;
-    background-color: rgba(0, 0, 0, 0.500);
+    background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
 }
 .txt-fine-ing{
@@ -38,6 +38,9 @@
 
 .fine-ingredients-title{
     font-size: 36px;
+    font-family: 'Yeseva One';
+     font-style: normal;
+     font-weight: 400;
     color: #fff;
     &::after{
         content: url('/images/reviews-divider.png');
@@ -48,4 +51,7 @@
 
 .fine-ingredients-txt{
     font-size: 16px;
+    font-family: 'Lato';
+     font-style: normal;
+     font-weight: 400;
 }

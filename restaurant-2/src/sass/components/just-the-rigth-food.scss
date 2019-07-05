@@ -130,8 +130,14 @@
 
 .form-button {
   font-family: 'Open Sans';
+  font-style: normal;
   font-weight: 400;
   color: #fff;
   padding: 12px 60px 12px 55px;
   background-color: #cc9900;
+  &:hover{
+    cursor: pointer;
+    background-color: #ac8513;
+    transition: all .5s linear;
+  }
 }
