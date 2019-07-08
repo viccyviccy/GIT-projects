@@ -95,31 +95,33 @@
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    font-weight: 700
+    font-weight: 700;
   }
-.header-logo-nav {
+
+  .header-logo-nav {
     justify-content: center;
     align-items: center;
-}
+  }
+
   .header-svg {
-      display: flex;
-      flex-flow: row;
+    display: flex;
+    flex-flow: row;
   }
 }
 
-  .header-btn {
-    width: 230px;
-    height: 56px;
-    margin: 30px 0 30px 0;
-    color: #fff;
-    text-transform: uppercase;
-    border: 1px solid #fff;
-    background-color: rgba(255, 255, 255, 0.247);
+.header-btn {
+  width: 230px;
+  height: 56px;
+  margin: 30px 0 30px 0;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.247);
 
-    &:hover {
-      border: 1px solid #000;
-      background-color: rgba(0, 0, 0, 0.247);
-      cursor: pointer;
-      transition: all .5s linear;
-    }
+  &:hover {
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.247);
+    cursor: pointer;
+    transition: all .5s linear;
   }
+}
