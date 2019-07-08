@@ -10,6 +10,15 @@
     justify-content: space-around;
 }
 
+@media screen and (min-width: 320px) and (max-width: 845px) {
+    .footer-content {
+      max-width: 0 auto;
+        flex-flow: column;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
 .descr {
     color: #fefefe;
     max-width: 320px;
@@ -41,6 +50,8 @@ display: flex;
 flex-flow: row;
 justify-content: center;
 }
+
+
 
 .icon {
     width: 22px;
