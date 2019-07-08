@@ -389,7 +389,7 @@ img {
 
 .container {
   display: block;
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
   padding: 0 auto;
 }
@@ -520,19 +520,13 @@ img {
 
 .nav__links {
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: #fff;
-  font-family: 'Gentium Book Basic';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 21px;
-  position: relative;
 }
 
 .nav__links:hover {
   color: #dab33e;
   transition: all .5s linear;
-  text-shadow: -1px 0 rgba(0, 0, 0, 0.5), 0 1px rgba(0, 0, 0, 0.5), 1px 0 rgba(0, 0, 0, 0.5), 0 -1px rgba(0, 0, 0, 0.5);
 }
 
 .header-svg {
@@ -561,9 +555,6 @@ img {
   font-size: 90px;
   color: #fff;
   width: 970px;
-  font-family: 'Yeseva One';
-  font-style: normal;
-  font-weight: 400;
 }
 
 .header-title::after {
@@ -583,10 +574,6 @@ img {
   text-transform: uppercase;
   border: 1px solid #fff;
   background-color: rgba(255, 255, 255, 0.247);
-  font-size: 18px;
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
 }
 
 .header-btn:hover {
@@ -905,8 +892,8 @@ img {
 }
 
 .just-tr-food_photo {
-  width: 270px;
-  height: 507px;
+  max-width: 270px;
+  max-height: 507px;
   margin: 0 15px 0 15px;
 }
 
@@ -915,6 +902,7 @@ img {
 }
 
 .just-tr-food_txt {
+  display: block;
   text-align: center;
   max-width: 430px;
 }
@@ -1105,4 +1093,50 @@ img {
 
 .link1 {
   text-decoration: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 999px) {
+  .just-tr-food {
+    flex-flow: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .just-tr-food_photo {
+    margin-bottom: 0;
+  }
+
+  .just-tr-food_photo:last-of-type {
+    margin-right: 10px;
+  }
+
+  .just-tr-food_txt {
+    padding-top: 20px;
+    margin: 0 auto;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .inputs_item {
+    padding-top: 20px;
+  }
+
+  .select {
+    margin-bottom: 30px;
+  }
+
+  .form-button {
+    padding: 12px 60px 12px 55px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 845px) {
+  .footer-content {
+    max-width: 0 auto;
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
+  }
 }
