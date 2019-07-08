@@ -17,6 +17,9 @@
         justify-items: center;
         align-items: center;
     }
+    .icons-items {
+        margin-bottom: 20px;
+    }
 }
 
 .descr {
@@ -30,6 +33,8 @@
     margin: 0 auto;
     font-size: 21px;
     font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
 
     &::after {
         display: block;
@@ -38,10 +43,12 @@
     }
 }
 
-.footer-txt-p {
+.footer-txt-p{
     margin: 0 0 10px 0;
     font-size: 16px;
     font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
     
 }
 
@@ -72,3 +79,5 @@ justify-content: center;
 .link1 {
     text-decoration: none;
 }
+
+
