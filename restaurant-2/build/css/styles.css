@@ -719,8 +719,8 @@ img {
   flex-flow: row;
   justify-content: space-around;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .menu_items_first {
@@ -1109,7 +1109,28 @@ img {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
+  .rigth-food-section {
+    display: flex;
+    padding: 0;
+  }
+
+  .rigth-food-txt-section {
+    width: 50%;
+    padding-top: 0;
+  }
+
+  .right-food-image {
+    width: 50%;
+  }
+
+  .right-food-chef {
+    margin: 5px auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
   .right-food-chef {
     margin: 20px auto;
     padding: 0;
@@ -1121,7 +1142,7 @@ img {
   }
 
   .rigth-food-title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .rigth-food-txt-section {
@@ -1171,14 +1192,6 @@ img {
     margin-right: 10px;
   }
 
-  .just-tr-food_txt {
-    padding: 20px 10px 0 5px;
-    margin: 0 auto;
-    flex-flow: column;
-    justify-content: center;
-    align-content: center;
-  }
-
   .inputs_item {
     padding-top: 20px;
   }
@@ -1189,6 +1202,16 @@ img {
 
   .form-button {
     padding: 12px 60px 12px 55px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+  .just-tr-food_txt {
+    padding: 20px 10px 0 5px;
+    margin: 0 auto;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
   }
 }
 
