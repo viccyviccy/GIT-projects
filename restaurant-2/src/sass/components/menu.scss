@@ -9,12 +9,14 @@
   flex-flow: row;
   justify-content: space-around;
   align-items: center;
-  padding: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1199px) {
+@media screen and (max-width: 991px)  {
   .menu_items_main {
     flex-flow: column;
+    padding: 15px 2px 15px 2px;
   }
 }
 
@@ -60,8 +62,7 @@
     height: 22px;
     width: 70px;
     position: absolute;
-    transform: translate(-1%, -1%);
-    right: 0;
+    right: -1px;
     top: -22px;
   }
 }
@@ -73,7 +74,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  padding: 20px 45px 15px 15px;
+  padding: 20px 15px 15px 15px;
 }
 
 .menu_items-title {
