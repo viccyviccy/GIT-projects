@@ -400,14 +400,14 @@ img {
   font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/gentium-book/gentium-book-basic-v9-latin-regular.ttf");
+  src: url("../../fonts/gentium-book/gentium-book-basic-v9-latin-regular.woff");
 }
 
 @font-face {
   font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/gentium-book/gentium-book-basic-v9-latin-700.ttf");
+  src: url("../../fonts/gentium-book/gentium-book-basic-v9-latin-700.woff");
 }
 
 /* lato-regular - latin */
@@ -416,7 +416,7 @@ img {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/lato/lato-v15-latin-regular.ttf");
+  src: url("../../fonts/lato/lato-v15-latin-regular.woff");
 }
 
 /* lato-italic - latin */
@@ -425,7 +425,7 @@ img {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 400;
-  src: url("../fonts/lato/lato-v15-latin-italic.ttf");
+  src: url("../../fonts/lato/lato-v15-latin-italic.woff");
 }
 
 /* open-sans-regular - latin */
@@ -434,7 +434,7 @@ img {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/open-sans/open-sans-v16-latin-regular.ttf");
+  src: url("../../fonts/open-sans/open-sans-v16-latin-regular.woff");
 }
 
 /* open-sans-italic - latin */
@@ -443,7 +443,7 @@ img {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400;
-  src: url("../fonts/open-sans/open-sans-v16-latin-italic.ttf");
+  src: url("../../fonts/open-sans/open-sans-v16-latin-italic.woff");
 }
 
 /* open-sans-700 - latin */
@@ -452,7 +452,7 @@ img {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/open-sans/open-sans-v16-latin-700.ttf");
+  src: url("../../fonts/open-sans/open-sans-v16-latin-700.woff");
 }
 
 /* open-sans-700italic - latin */
@@ -461,7 +461,7 @@ img {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 700;
-  src: url("../fonts/open-sans/open-sans-v16-latin-700italic.ttf");
+  src: url("../../fonts/open-sans/open-sans-v16-latin-700italic.woff");
 }
 
 /* roboto-regular - latin */
@@ -470,7 +470,7 @@ img {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/roboto/roboto-v19-latin-regular.ttf");
+  src: url("../../fonts/roboto/roboto-v19-latin-regular.woff");
 }
 
 /* roboto-700 - latin */
@@ -479,7 +479,7 @@ img {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/roboto/roboto-v19-latin-700.ttf");
+  src: url("../../fonts/roboto/roboto-v19-latin-700.woff");
 }
 
 /* yeseva-one-regular - latin */
@@ -488,7 +488,7 @@ img {
   font-family: 'Yeseva One';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/yeseva-one/yeseva-one-v13-latin-regular.ttf");
+  src: url("../../fonts/yeseva-one/yeseva-one-v13-latin-regular.woff");
 }
 
 .header-logo-nav {
@@ -719,7 +719,8 @@ img {
   flex-flow: row;
   justify-content: space-around;
   align-items: center;
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .menu_items_first {
@@ -747,9 +748,7 @@ img {
   height: 22px;
   width: 70px;
   position: absolute;
-  -webkit-transform: translate(-1%, -1%);
-  transform: translate(-1%, -1%);
-  right: 0;
+  right: -1px;
   top: -22px;
 }
 
@@ -758,7 +757,7 @@ img {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  padding: 20px 45px 15px 15px;
+  padding: 20px 15px 15px 15px;
 }
 
 .menu_items-title {
@@ -839,7 +838,7 @@ img {
 }
 
 .guest-rew_p {
-  font-family: 'Gentium Book Basic';
+  font-family: 'Gentium Book';
   font-weight: 400;
   font-size: 25px;
   max-width: 620px;
@@ -1112,7 +1111,7 @@ img {
 
 @media screen and (min-width: 320px) and (max-width: 1199px) {
   .right-food-chef {
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 0;
   }
 
@@ -1128,8 +1127,7 @@ img {
   .rigth-food-txt-section {
     width: auto;
     margin: 0 auto;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0;
   }
 
   .right-food-items {
@@ -1141,6 +1139,7 @@ img {
 
   .menu_items_main {
     flex-flow: column;
+    padding: 15px 2px 15px 2px;
   }
 }
 
