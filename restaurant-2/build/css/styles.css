@@ -676,6 +676,9 @@ img {
 
 .txt-fine-ing {
   text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
 .fine-ingredients-img {
@@ -697,6 +700,7 @@ img {
   font-style: normal;
   font-weight: 400;
   color: #fff;
+  padding-top: 20px;
 }
 
 .fine-ingredients-title::after {
@@ -710,7 +714,7 @@ img {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  max-width: 620px;
+  width: 80%;
 }
 
 .menu-section {
@@ -1105,12 +1109,44 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 991px) {
+  .menu_items_main {
+    flex-flow: column;
+    padding: 15px 2px 15px 2px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+
   .fine-ingredients {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+  }
+
+  .f-i-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+  }
+
+  .fine-ingredients-title {
+    font-size: 36px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 30px;
+  }
+
+  .fine-ingredients-title::after {
+    content: url("/images/reviews-divider.png");
+    display: block;
+    margin: 0 0 20px 0;
   }
 }
 
@@ -1138,33 +1174,7 @@ img {
 
   .svg-media-header:hover {
     fill: #dab33e;
-    transition: all .5s linear;}
-
-@media screen and (max-width: 1199px) {
-  .rigth-food-section {
-    display: flex;
-    padding: 0;
-  }
-
-  .rigth-food-txt-section {
-    width: 50%;
-    padding-top: 0;
-  }
-
-  .right-food-image {
-    width: 50%;
-  }
-
-  .right-food-chef {
-    margin: 5px auto;
-    padding: 0;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .right-food-chef {
-    margin: 20px auto;
-    padding: 0;
+    transition: all .5s linear;
   }
 
   .logo {
@@ -1185,14 +1195,6 @@ img {
     justify-content: center;
     align-items: center;
     margin: 0;
-  .rigth-food-title {
-    font-size: 20px;
-  }
-
-  .rigth-food-txt-section {
-    width: auto;
-    margin: 0 auto;
-    padding: 0;
   }
 
   .header-title {
@@ -1217,6 +1219,43 @@ img {
     margin-left: 15px;
   }
 
+  .right-food-chef {
+    margin: 0 auto;
+    padding: 0;
+    width: 220px;
+    height: 220px;
+    align-self: center;
+    margin: 58px 0 58px 0;
+  }
+
+  .right-food-image {
+    margin: 0 auto;
+    width: auto;
+    height: 280px;
+  }
+
+  .rigth-food-title {
+    font-size: 30px;
+  }
+
+  .rigth-food-txt-section {
+    width: auto;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .right-food-items {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+  }
+
   .f-i-container {
     padding: 10px 15px 10px 15px;
     justify-content: center;
@@ -1225,6 +1264,31 @@ img {
   .f-i-img {
     width: 50px;
     height: 50px;
+  }
+
+  .fine-ingredients-txt {
+    font-size: 18px;
+  }
+
+  .f-i-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 8px 0 8px;
+  }
+
+  .fine-ingredients-title {
+    font-size: 36px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 10px;
+  }
+
+  .fine-ingredients-title::after {
+    content: url("/images/reviews-divider.png");
+    display: block;
+    margin: 0 0 20px 0;
   }
 }
 
@@ -1297,6 +1361,49 @@ img {
     height: 56px;
     margin-left: 20px;
   }
+
+  .right-food-chef {
+    margin: 0 auto;
+    padding: 0;
+    width: 220px;
+    height: 220px;
+    align-self: center;
+    margin: 58px 0 58px 0;
+  }
+
+  .right-food-image {
+    align-self: center;
+    width: 560px;
+    height: auto;
+  }
+
+  .rigth-food-txt-section {
+    display: flex;
+    flex-flow: column wrap;
+    align-self: flex-start;
+    text-align: center;
+    width: 430px;
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+
+  .rigth-food-title {
+    color: #cc9900;
+    font-size: 36px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .rigth-food-title::first-letter {
+    text-transform: uppercase;
+  }
+
+  .rigth-food-title::after {
+    content: url("../images/the-rf-divider.png");
+    padding-bottom: 50px;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1400px) {
@@ -1304,7 +1411,12 @@ img {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    width: 800px;
+    width: 700px;
+    padding-right: 30px;
+  }
+
+  .container {
+    max-width: 960px;
   }
 
   .header-title {
@@ -1317,41 +1429,17 @@ img {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 1199px) {
-  .right-food-chef {
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  .right-food-image {
-    margin: 0 auto;
-    width: auto;
-  }
-
-  .rigth-food-title {
-    font-size: 30px;
-  }
-
-  .rigth-food-txt-section {
-    width: auto;
-    margin: 0 auto;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
   .right-food-items {
-    padding: 0;
-    margin: 0 auto;
-    text-align: center;
-    max-width: 400px;
-  }
-
-  .menu_items_main {
-    flex-flow: column;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 999px) {
   .just-tr-food {
     flex-flow: column;
     justify-content: center;
@@ -1380,7 +1468,7 @@ img {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 991px) {
   .just-tr-food_txt {
     padding: 20px 10px 0 5px;
     margin: 0 auto;
@@ -1390,7 +1478,7 @@ img {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 845px) {
   .footer-content {
     max-width: 0 auto;
     flex-flow: column;
