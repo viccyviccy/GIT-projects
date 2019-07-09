@@ -223,9 +223,15 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    width: 800px;
-    
+    width: 700px;
+    padding-right: 30px;
    }
+  //  .logo{
+  //    padding-left: 30px;
+  //  }
+  .container{
+    max-width: 960px;
+  }
    .header-title{
     display: flex;
     flex-flow: column;

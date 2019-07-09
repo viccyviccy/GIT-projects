@@ -47,13 +47,10 @@
   padding: 58px 0 58px 0;
   margin-right: 60px;
   align-self: flex-end;
-
 }
 
 .right-food-image {
-
-  width: 560px;
-
+   width: 560px;
 }
 
 .right-food-items {
@@ -65,58 +62,93 @@
 }
 
 
-@media screen and (max-width: 991px) {
-
+@media screen and (min-width: 320px) and (max-width:767px) {
   .right-food-chef {
-    margin: 20px auto;
-    padding: 0;
-
+   margin: 0 auto;
+   padding: 0;
+    width: 220px;
+    height: 220px;
+    align-self: center;
+    margin: 58px 0 58px 0;
   }
-
   .right-food-image {
     margin: 0 auto;
     width: auto;
+    height: 280px;
   }
-
   .rigth-food-title {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .rigth-food-txt-section {
     width: auto;
     margin: 0 auto;
-    padding: 0;
+    padding-top:0;
+    padding-bottom: 0;
   }
-
-
   .right-food-items {
-    padding: 0;
-    margin: 0 auto;
-    text-align: center;
-    max-width: 400px;
+     display: flex;
+     flex-flow: column;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     max-width: 320px;
+     margin: 0 auto;
+     padding: 20px 0 20px 0;
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width:768px) and (max-width: 1023px){
+    .right-food-chef {
+        margin: 0 auto;
+        padding: 0;
+         width: 220px;
+         height: 220px;
+         align-self: center;
+         margin: 58px 0 58px 0;
+       }
+       .right-food-image {
+        //  margin: 0 auto;
+        align-self: center;
+         width: 560px;
+         height: auto;
+       }
+       .rigth-food-txt-section {
+        display: flex;
+        flex-flow: column wrap;
+        align-self: flex-start;
+        text-align: center;
+        width: 430px;
+        padding-top: 40px;
+        margin: 0 auto;
+      }
+      
+      .rigth-food-title {
+        color: #cc9900;
+        font-size: 36px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+      
+        &::first-letter {
+          text-transform: uppercase;
+        }
+      
+        &::after {
+          content: url('../images/the-rf-divider.png');
+          padding-bottom: 50px;
+        }
+      }
+     
+        }
 
-  .rigth-food-section {
-    display: flex;
-    padding: 0;
-
-  }
-
-  .rigth-food-txt-section {
-    width: 50%;
-    padding-top: 0;
-  }
-
-  .right-food-image {
-    width: 50%;
-  }
-
-  .right-food-chef {
-    margin: 5px auto;
-    padding: 0;
-
-  }
-}
+ @media screen and (min-width:1024px) and (max-width: 1439px){
+     .right-food-items{
+         display: flex;
+         flex-flow: row;
+         justify-content: center;
+         align-items: center;
+         padding: 15px;
+     }
+ }
