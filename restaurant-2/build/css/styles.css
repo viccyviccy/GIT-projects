@@ -1095,13 +1095,40 @@ img {
   text-decoration: none;
 }
 
+@media screen and (min-width: 320px) {
+  .guest-rew-words {
+    padding: 40px 10px 80px 10px;
+  }
+
+  .guest-reviews-section {
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .fine-ingredients {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .nav__links {
     display: none;
   }
 
+  .media-nav-header {
+    position: relative;
+  }
+
   .header-media-nav {
     display: flex;
+    position: absolute;
+    top: 2.5%;
+    left: 0;
     width: 80px;
     height: 80px;
   }
@@ -1118,7 +1145,88 @@ img {
   .logo {
     display: flex;
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 150px;
+    align-items: flex-end;
+  }
+
+  .logo-img {
+    width: auto;
+    height: 170px;
+  }
+
+  .header-txt-btn {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .header-title {
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .header-buttons {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    display: flex;
+  }
+
+  .header-btn {
+    width: 100px;
+    height: 56px;
+    margin-left: 15px;
+  }
+
+  .f-i-container {
+    padding: 10px 15px 10px 15px;
+    justify-content: center;
+  }
+
+  .f-i-img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav__links {
+    display: none;
+  }
+
+  .media-nav-header {
+    position: relative;
+  }
+
+  .header-media-nav {
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 0;
+    width: 80px;
+    height: 80px;
+  }
+
+  .svg-media-header {
+    fill: #fff;
+  }
+
+  .svg-media-header:hover {
+    fill: #dab33e;
+    transition: all .5s linear;
+    cursor: pointer;
+  }
+
+  .logo {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 150px;
     align-items: flex-end;
   }
 
@@ -1138,9 +1246,9 @@ img {
   .header-title {
     display: flex;
     flex-flow: column;
-    width: 100%;
+    width: 60%;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     margin: 0;
   }
 
@@ -1152,40 +1260,61 @@ img {
   }
 
   .header-btn {
-    width: 100px;
+    width: 200px;
     height: 56px;
     margin-left: 20px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
   .header-nav {
     display: flex;
     flex-flow: row wrap;
-    max-width: 300px;
     justify-content: space-between;
-  }
-
-  .nav__links {
-    font-size: 20px;
-  }
-
-  .header-logo-nav {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    padding: 50px;
-  }
-
-  .header-txt-btn {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+    width: 800px;
   }
 
   .header-title {
-    width: 100%;
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+  .right-food-chef {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .right-food-image {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .rigth-food-title {
+    font-size: 30px;
+  }
+
+  .rigth-food-txt-section {
+    width: auto;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .right-food-items {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 400px;
+  }
+
+  .menu_items_main {
+    flex-flow: column;
   }
 }
 
