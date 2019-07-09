@@ -1114,6 +1114,10 @@ img {
     flex-flow: column;
     padding: 15px 2px 15px 2px;
   }
+
+  .menu-description {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1147,65 +1151,6 @@ img {
     content: url("/images/reviews-divider.png");
     display: block;
     margin: 0 0 20px 0;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .nav__links {
-    display: none;
-  }
-
-  .media-nav-header {
-    position: relative;
-  }
-
-  .header-media-nav {
-    display: flex;
-    position: absolute;
-    top: 2.5%;
-    left: 0;
-    width: 80px;
-    height: 80px;
-  }
-
-  .svg-media-header {
-    fill: #fff;
-  }
-
-  .svg-media-header:hover {
-    fill: #dab33e;
-    transition: all .5s linear;
-  }
-
-  .right-food-image {
-    margin: 0 auto;
-    width: auto;
-  }
-
-  .rigth-food-title {
-    font-size: 20px;
-  }
-
-  .rigth-food-txt-section {
-    width: auto;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  .right-food-items {
-    padding: 0;
-    margin: 0 auto;
-    text-align: center;
-    max-width: 400px;
-  }
-
-  .menu_items_main {
-    flex-flow: column;
-    padding: 15px 2px 15px 2px;
-  }
-
-  .menu-description {
-    font-size: 20px;
   }
 }
 
@@ -1315,6 +1260,10 @@ img {
     padding: 20px 0 20px 0;
   }
 
+  .right-food-txt {
+    font-size: 20px;
+  }
+
   .f-i-container {
     padding: 10px 15px 10px 15px;
     justify-content: center;
@@ -1326,7 +1275,7 @@ img {
   }
 
   .fine-ingredients-txt {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .f-i-img {
@@ -1463,6 +1412,10 @@ img {
     content: url("../images/the-rf-divider.png");
     padding-bottom: 50px;
   }
+
+  .right-food-txt {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1400px) {
@@ -1496,6 +1449,7 @@ img {
     align-items: center;
     padding: 15px;
   }
+}
 
 @media screen and (min-width: 320px) and (max-width: 999px) {
   .just-tr-food {
@@ -1503,6 +1457,36 @@ img {
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .just-tr-food_photo {
+    margin-bottom: 0;
+  }
+
+  .just-tr-food_photo:last-of-type {
+    margin-right: 10px;
+  }
+
+  .just-tr-food_txt {
+    padding: 20px 10px 0 5px;
+    margin: 0 auto;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .inputs_item {
+    padding-top: 20px;
+  }
+
+  .form-button {
+    padding: 30px 100px 30px 100px;
+    font-size: 20px;
+  }
+
+  .form-txt {
+    width: 300px;
+    height: 50px;
   }
 
   .form-txt::-webkit-input-placeholder {
@@ -1570,13 +1554,42 @@ img {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 991px) {
-  .just-tr-food_txt {
-    padding: 20px 10px 0 5px;
-    margin: 0 auto;
-    flex-flow: column;
-    justify-content: center;
-    align-content: center;
+@media screen and (min-width: 765px) and (max-width: 999px) {
+  .select {
+    width: 700px;
+    height: 70px;
+    background-position-x: 680px;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .form-button {
+    padding: 30px 150px 30px 150px;
+  }
+
+  .form-txt {
+    width: 700px;
+    height: 60px;
+  }
+
+  .form-txt::-webkit-input-placeholder {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+
+  .form-txt:-ms-input-placeholder {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+
+  .form-txt::-ms-input-placeholder {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+
+  .form-txt::placeholder {
+    font-size: 20px;
+    padding-left: 15px;
   }
 }
 
@@ -1593,6 +1606,10 @@ img {
   }
 
   .footer-content {
-    font-size: 22px;
+    font-size: 20px;
+  }
+
+  .footer-txt-p {
+    font-size: 20px;
   }
 }

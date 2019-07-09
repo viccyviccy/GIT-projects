@@ -13,15 +13,7 @@
   padding-bottom: 80px;
 }
 
-@media screen and (max-width: 991px)  {
-  .menu_items_main {
-    flex-flow: column;
-    padding: 15px 2px 15px 2px;
-  }
-  .menu-description {
-    font-size: 20px;
-  }
-}
+
 
 // @media screen and (min-width: 1200px) {
 //     .special-offer::before {
@@ -128,5 +120,15 @@
     height: 1px;
     display: flex;
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 991px)  {
+  .menu_items_main {
+    flex-flow: column;
+    padding: 15px 2px 15px 2px;
+  }
+  .menu-description {
+    font-size: 20px;
   }
 }
