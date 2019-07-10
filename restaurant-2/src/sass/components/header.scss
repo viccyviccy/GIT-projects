@@ -32,6 +32,8 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
+     font-family: 'Gentium Book Basic';
+     font-weight:700; 
   &:hover{
       color: #dab33e;
       transition: all .5s linear;
@@ -58,10 +60,14 @@
   padding-top: 97px;
   padding-bottom: 97px;
   text-align: center;
+  font-family: 'Lato';
+  font-weight: 400;
 }
 
 .header-title{
   font-size: 90px;
+  font-family: 'Yeseva One';
+  font-weight: 400;
   color: #fff;
   width: 970px;
   &::after{
