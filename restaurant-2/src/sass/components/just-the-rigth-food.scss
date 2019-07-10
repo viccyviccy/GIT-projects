@@ -53,6 +53,7 @@
   }
 }
 
+
 .inputs_item {
   padding-top: 74px;
   display: flex;
@@ -90,6 +91,7 @@
   }
 }
 .form_txt_p {
+  display: block;
   font-family: 'Open Sans';
   font-weight: 700;
   color: #cc9900;
@@ -165,6 +167,9 @@
   font-family: 'Open Sans';
   font-weight: 400;
   text-align: center;
+  width: 280px;
+  height: 60px;
+
   }
 
   .form_txt_p{
@@ -212,10 +217,13 @@
   .form-button {
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
-    line-height: 10px;
+    // line-height: 10px;
     margin-top: 30px;
+    width: 300px;
+    height: 80px;
+    
   }
   .just-tr-food_txt_p{
     font-size: 20px;
