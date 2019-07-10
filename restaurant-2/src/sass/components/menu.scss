@@ -1,5 +1,5 @@
 .menu-section {
-  background: url('../images/background-menu.png');
+  background: url('/images/background-menu.png');
   background-size: cover;
   background-position: center;
 }
@@ -82,7 +82,7 @@
   text-align: center;
 
   &::after {
-    content: url('../images/menu-divider.png');
+    content: url('/images/menu-divider.png');
     display: flex;
     justify-content: center;
 

@@ -1,5 +1,5 @@
 .right-food-section {
-  background: url("../images/background-right-food.png");
+  background: url("/images/background-right-food.png");
   background-size: cover;
   background-position: center;
   padding: 50px 0 50px 0;
@@ -28,7 +28,7 @@
   }
 
   &::after {
-    content: url('../images/the-rf-divider.png');
+    content: url('/images/the-rf-divider.png');
     padding-bottom: 50px;
   }
 }
@@ -139,7 +139,7 @@
         }
       
         &::after {
-          content: url('../images/the-rf-divider.png');
+          content: url('/images/the-rf-divider.png');
           padding-bottom: 50px;
         }
       }
