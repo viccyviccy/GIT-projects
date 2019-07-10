@@ -400,14 +400,14 @@ img {
   font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: 400;
-  src: url("../../fonts/gentium-book/gentium-book-basic-v9-latin-regular.woff");
+  src: url("../fonts/gentium-book/gentium-book-basic-v9-latin-regular.woff");
 }
 
 @font-face {
   font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: 700;
-  src: url("../../fonts/gentium-book/gentium-book-basic-v9-latin-700.woff");
+  src: url("../fonts/gentium-book/gentium-book-basic-v9-latin-700.woff");
 }
 
 /* lato-regular - latin */
@@ -416,7 +416,7 @@ img {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: url("../../fonts/lato/lato-v15-latin-regular.woff");
+  src: url("../fonts/lato/lato-v15-latin-regular.woff");
 }
 
 /* lato-italic - latin */
@@ -425,7 +425,7 @@ img {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 400;
-  src: url("../../fonts/lato/lato-v15-latin-italic.woff");
+  src: url("../fonts/lato/lato-v15-latin-italic.woff");
 }
 
 /* open-sans-regular - latin */
@@ -434,7 +434,7 @@ img {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url("../../fonts/open-sans/open-sans-v16-latin-regular.woff");
+  src: url("../fonts/open-sans/open-sans-v16-latin-regular.woff");
 }
 
 /* open-sans-italic - latin */
@@ -443,7 +443,7 @@ img {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400;
-  src: url("../../fonts/open-sans/open-sans-v16-latin-italic.woff");
+  src: url("../fonts/open-sans/open-sans-v16-latin-italic.woff");
 }
 
 /* open-sans-700 - latin */
@@ -452,7 +452,7 @@ img {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: url("../../fonts/open-sans/open-sans-v16-latin-700.woff");
+  src: url("../fonts/open-sans/open-sans-v16-latin-700.woff");
 }
 
 /* open-sans-700italic - latin */
@@ -461,7 +461,7 @@ img {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 700;
-  src: url("../../fonts/open-sans/open-sans-v16-latin-700italic.woff");
+  src: url("../fonts/open-sans/open-sans-v16-latin-700italic.woff");
 }
 
 /* roboto-regular - latin */
@@ -470,7 +470,7 @@ img {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url("../../fonts/roboto/roboto-v19-latin-regular.woff");
+  src: url("../fonts/roboto/roboto-v19-latin-regular.woff");
 }
 
 /* roboto-700 - latin */
@@ -479,7 +479,7 @@ img {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: url("../../fonts/roboto/roboto-v19-latin-700.woff");
+  src: url("../fonts/roboto/roboto-v19-latin-700.woff");
 }
 
 /* yeseva-one-regular - latin */
@@ -488,7 +488,7 @@ img {
   font-family: 'Yeseva One';
   font-style: normal;
   font-weight: 400;
-  src: url("../../fonts/yeseva-one/yeseva-one-v13-latin-regular.woff");
+  src: url("../fonts/yeseva-one/yeseva-one-v13-latin-regular.woff");
 }
 
 .header-logo-nav {
