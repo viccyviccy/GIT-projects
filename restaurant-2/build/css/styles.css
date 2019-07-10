@@ -828,8 +828,10 @@ img {
 }
 
 .guest-rew-words {
+  display: block;
+  padding: 0 auto;
+  margin: 0 auto;
   text-align: center;
-  padding: 80px 60px 105px 60px;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.6);
   max-width: 770px;
@@ -1299,6 +1301,9 @@ img {
 
   .fine-ingredients-img {
     padding: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
   .fine-ingredients-title {
