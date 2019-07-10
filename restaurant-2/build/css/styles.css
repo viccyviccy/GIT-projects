@@ -1642,7 +1642,6 @@ img {
     max-width: 99%;
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
     align-items: center;
   }
 
