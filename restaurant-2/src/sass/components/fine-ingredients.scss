@@ -87,6 +87,9 @@
   }
   .fine-ingredients-img {
     padding: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
   .fine-ingredients-title {
     font-size: 36px;
