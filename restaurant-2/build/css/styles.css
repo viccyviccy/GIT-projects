@@ -667,6 +667,7 @@ img {
   display: flex;
   justify-content: flex-end;
   padding: 100px 0 100px 0;
+  text-align: center;
 }
 
 .fine-ingredients {
@@ -678,13 +679,6 @@ img {
   max-height: 555px;
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
-}
-
-.txt-fine-ing {
-  text-align: center;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
 }
 
 .fine-ingredients-img {
@@ -1149,6 +1143,7 @@ img {
     display: flex;
     justify-content: center;
     padding: 100px 0 100px 0;
+    text-align: center;
   }
 
   .fine-ingredients-title {
@@ -1223,7 +1218,7 @@ img {
     flex-flow: column;
     width: 80%;
     text-align: center;
-    font-size: 50px;
+    font-size: 44px;
     margin: 0;
   }
 
@@ -1286,6 +1281,7 @@ img {
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 
   .fine-ingredients {
@@ -1298,6 +1294,9 @@ img {
 
   .fine-ingredients-txt {
     font-size: 20px;
+    text-align: center;
+    padding: 0 auto;
+    margin: 0 auto;
   }
 
   .f-i-img {

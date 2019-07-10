@@ -8,6 +8,7 @@
   display: flex;
   justify-content: flex-end;
   padding: 100px 0 100px 0;
+  text-align: center;
 }
 .fine-ingredients {
   display: flex;
@@ -18,12 +19,6 @@
   max-height: 555px;
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
-}
-.txt-fine-ing {
-  text-align: center;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
 }
 .fine-ingredients-img {
   display: flex;
@@ -67,8 +62,7 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-
-    // max-width: 90%;
+text-align: center;
   }
   .fine-ingredients {
     display: block;
@@ -79,6 +73,9 @@
   }
   .fine-ingredients-txt {
     font-size: 20px;
+    text-align: center;
+    padding: 0 auto;
+    margin: 0 auto;
   }
   .f-i-img {
     width: 70px;
@@ -116,6 +113,7 @@
     display: flex;
     justify-content: center;
     padding: 100px 0 100px 0;
+    text-align: center;
   }
   .fine-ingredients-title {
     font-size: 36px;
