@@ -500,7 +500,7 @@ img {
 }
 
 .header-section {
-  background: url("/images/header-background.png");
+  background: url("../images/header-background.png");
   background-size: cover;
   background-position: center;
 }
@@ -559,7 +559,7 @@ img {
 }
 
 .header-title::after {
-  content: url("/images/header-divider.png");
+  content: url("../images/header-divider.png");
   display: block;
   padding: 0 auto;
   margin: 0 auto;
@@ -589,7 +589,7 @@ img {
 }
 
 .right-food-section {
-  background: url("/images/background-right-food.png");
+  background: url("../images/background-right-food.png");
   background-size: cover;
   background-position: center;
   padding: 50px 0 50px 0;
@@ -619,7 +619,7 @@ img {
 }
 
 .rigth-food-title::after {
-  content: url("/images/the-rf-divider.png");
+  content: url("../images/the-rf-divider.png");
   padding-bottom: 50px;
 }
 
@@ -652,7 +652,7 @@ img {
 }
 
 .fine-ingredients-section {
-  background: url("/images/background-fine-ingredients.png");
+  background: url("../images/background-fine-ingredients.png");
   background-size: cover;
   background-position: center;
 }
@@ -704,7 +704,7 @@ img {
 }
 
 .fine-ingredients-title::after {
-  content: url("/images/reviews-divider.png");
+  content: url("../images/reviews-divider.png");
   display: block;
   margin: 20px 0 20px 0;
 }
@@ -718,7 +718,7 @@ img {
 }
 
 .menu-section {
-  background: url("/images/background-menu.png");
+  background: url("../images/background-menu.png");
   background-size: cover;
   background-position: center;
 }
@@ -780,7 +780,7 @@ img {
 }
 
 .menu_items-title::after {
-  content: url("/images/menu-divider.png");
+  content: url("../images/menu-divider.png");
   display: flex;
   justify-content: center;
 }
@@ -822,7 +822,7 @@ img {
 .guest-reviews-section {
   padding-bottom: 100px;
   padding-top: 100px;
-  background: url("/images/background-reviews.png");
+  background: url("../images/background-reviews.png");
   background-size: cover;
   background-position: center;
 }
@@ -844,7 +844,7 @@ img {
 
 .guest-rew_title::after {
   display: block;
-  content: url("/images/footer-divider.png");
+  content: url("../images/footer-divider.png");
   margin: 10px;
 }
 
@@ -861,7 +861,7 @@ img {
 
 .guest-rew_p::before {
   display: block;
-  content: url("/images/dush.png");
+  content: url("../images/dush.png");
   width: 20px;
   height: 20px;
   position: absolute;
@@ -876,7 +876,7 @@ img {
 }
 
 .just-tr-food-section {
-  background: url("/images/background-right-food.png");
+  background: url("../images/background-right-food.png");
   background-size: cover;
   background-position: center;
 }
@@ -920,7 +920,7 @@ img {
 
 .just-tr-food_txt_title::after {
   display: block;
-  content: url("/images/the-rf-divider.png");
+  content: url("../images/the-rf-divider.png");
   margin: 10px;
 }
 
@@ -988,7 +988,7 @@ img {
 
 .label-for-data::before {
   display: block;
-  content: url("/images/icon.png");
+  content: url("../images../icon.png");
   position: absolute;
   right: 0.8rem;
   top: 50%;
@@ -1015,7 +1015,7 @@ img {
   padding: 5px;
   font-size: 16px;
   border: 1px solid #c8c6c6;
-  background: url("/images/arrow.png") no-repeat right;
+  background: url("../images/arrow.png") no-repeat right;
   background-position-x: 180px;
   font-family: 'Open Sans';
   font-weight: 400;
@@ -1100,7 +1100,7 @@ img {
 
 .footer-txt::after {
   display: block;
-  content: url("/images/footer-divider.png");
+  content: url("../images/footer-divider.png");
   margin: 10px;
 }
 
@@ -1154,7 +1154,7 @@ img {
   }
 
   .fine-ingredients-title::after {
-    content: url("/images/reviews-divider.png");
+    content: url("../images/reviews-divider.png");
     display: block;
     margin: 0 0 20px 0;
   }
@@ -1316,7 +1316,7 @@ img {
   }
 
   .fine-ingredients-title::after {
-    content: url("/images/reviews-divider.png");
+    content: url("../images/reviews-divider.png");
     display: block;
     margin: 0 0 20px 0;
   }
@@ -1532,7 +1532,7 @@ img {
   }
 
   .rigth-food-title::after {
-    content: url("/images/the-rf-divider.png");
+    content: url("../images/the-rf-divider.png");
     padding-bottom: 50px;
   }
 

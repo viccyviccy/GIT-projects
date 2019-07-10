@@ -1,5 +1,5 @@
 .fine-ingredients-section {
-  background: url('/images/background-fine-ingredients.png');
+  background: url('../images/background-fine-ingredients.png');
   background-size: cover;
   background-position: center;
 }
@@ -46,7 +46,7 @@
   color: #fff;
   padding-top: 20px;
   &::after {
-    content: url('/images/reviews-divider.png');
+    content: url('../images/reviews-divider.png');
     display: block;
     margin: 20px 0 20px 0;
   }
@@ -99,7 +99,7 @@
     color: #fff;
     padding-top: 10px;
     &::after {
-      content: url('/images/reviews-divider.png');
+      content: url('../images/reviews-divider.png');
       display: block;
       margin: 0 0 20px 0;
     }
@@ -125,7 +125,7 @@
     color: #fff;
     padding-top: 30px;
     &::after {
-      content: url('/images/reviews-divider.png');
+      content: url('../images/reviews-divider.png');
       display: block;
       margin: 0 0 20px 0;
     }

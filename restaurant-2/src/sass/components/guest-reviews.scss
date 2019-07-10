@@ -1,7 +1,7 @@
 .guest-reviews-section {
   padding-bottom: 100px;
   padding-top: 100px;
-  background: url('/images/background-reviews.png');
+  background: url('../images/background-reviews.png');
   background-size: cover;
   background-position: center;
 }
@@ -23,7 +23,7 @@
 
   &::after {
     display: block;
-    content: url('/images/footer-divider.png');
+    content: url('../images/footer-divider.png');
     margin: 10px;
   }
 }
@@ -39,7 +39,7 @@
   position: relative;
 &::before {
     display: block;
-    content: url('/images/dush.png');
+    content: url('../images/dush.png');
     width: 20px;
     height: 20px;
     position: absolute;
