@@ -1,1 +1,1 @@
-# GIT-projects
+First project done only with html and css. Was a collaboration with another student during the FrontEnd Essentials course at 'Go IT - Bootcamp' course. All the components are brought together with the help of webpack. I was designated as a team lead by the mentor for this project. 
